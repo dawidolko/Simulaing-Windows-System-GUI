@@ -1,31 +1,30 @@
 # Programming-Business-Applications
 
-## **Opis:**
-Programming-Business-Applications to repozytorium poświęcone programowaniu aplikacji biznesowych. Znajdziesz tutaj przykładowe projekty, materiały edukacyjne oraz narzędzia związane z tworzeniem oprogramowania dla potrzeb biznesowych i organizacyjnych.
+## **Description:**
+Programming-Business-Applications is a repository dedicated to programming business applications. Here you will find sample projects, educational materials and tools related to software development for business and organizational needs.
 
-## **Struktura Repozytorium:**
-/Projekty: Ten folder zawiera różne projekty, w których wykorzystuje się programowanie aplikacji biznesowych. Każdy projekt posiada swój własny folder z opisem, plikami projektowymi i kodem źródłowym.
+## **Repository Structure:**
+/Projects: This folder contains various projects where business application development is used. Each project has its own folder with description, project files and source code.
 
-/Materiały: W tym folderze znajdują się materiały edukacyjne, takie jak tutoriale, dokumentacja i artykuły, które pomogą Ci w programowaniu aplikacji biznesowych.
+/Resources: This folder contains educational materials such as tutorials, documentation, and articles to help you develop business applications.
 
-/Narzędzia: Tutaj znajdują się narzędzia programistyczne, frameworki oraz biblioteki, które mogą ułatwić tworzenie aplikacji biznesowych dla różnych dziedzin i potrzeb.
+/Tools: Here you will find development tools, frameworks and libraries that can facilitate the creation of business applications for various fields and needs.
 
-## **Jak zacząć:**
+## **How ​​to start:**
 
-Sklonuj repozytorium na swój lokalny komputer:
+Clone the repository to your local computer:
 ```
 git clone https://github.com/dawidolko/Programming-Business-Applications.git
 ```
 
-Przeglądaj dostępne projekty, materiały i narzędzia w odpowiednich folderach.
+Browse available projects, materials and tools in their respective folders.
 
-Wykorzystaj dostępne zasoby i narzędzia, aby programować aplikacje biznesowe dla różnych dziedzin i organizacji.
+Leverage available resources and tools to develop business applications for various disciplines and organizations.
 
-## **Wymagania systemowe**
-Aby rozpocząć programowanie aplikacji biznesowych, będziesz potrzebować odpowiednich narzędzi programistycznych i środowisk, takich jak IDE (Integrated Development Environment) lub specjalistyczne narzędzia biznesowe. Upewnij się, że masz zainstalowane wymagane oprogramowanie zgodnie z preferencjami i potrzebami projektu.
+## **System requirements**
+To start developing business applications, you will need the right development tools and environments, such as an IDE (Integrated Development Environment) or specialized business tools. Make sure you have the required software installed according to your project preferences and needs.
 
-## **Wkład i Wsparcie**
-Jeśli chcesz przyczynić się do tego repozytorium, możesz zgłaszać problemy, tworzyć pull requesty lub udostępniać swoje własne projekty związane z programowaniem aplikacji biznesowych. Wszelkie wkłady są mile widziane!
+## **Contributions and Support**
+If you want to contribute to this repository, you can report issues, create pull requests or share your own business application development projects. Any contributions are welcome!
 
-Jeśli masz pytania lub potrzebujesz pomocy, skontaktuj się ze mną poprzez e-mail lub przez platformę GitHub.
-
+If you have any questions or need help, please contact me via email or GitHub.
