@@ -6,9 +6,7 @@ Programming-Business-Applications is a repository dedicated to programming busin
 ## **Repository Structure:**
 /Projects: This folder contains various projects where business application development is used. Each project has its own folder with description, project files and source code.
 
-/Resources: This folder contains educational materials such as tutorials, documentation, and articles to help you develop business applications.
-
-/Tools: Here you will find development tools, frameworks and libraries that can facilitate the creation of business applications for various fields and needs.
+/Labs: This folder contains educational materials such as tutorials, documentation, and articles to help you develop business applications.
 
 ## **How ​​to start:**
 
