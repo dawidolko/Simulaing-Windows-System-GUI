@@ -1,28 +1,101 @@
-# Programming-Business-Applications
+<h1 align="center">
+  <br>
 
-## **Description:**
-Programming-Business-Applications is a repository dedicated to programming business applications. Here you will find sample projects, educational materials and tools related to software development for business and organizational needs.
+  <br>
+  windows.dawidolko.pl
+  <br>
+</h1>
 
-## **Repository Structure:**
-/Projects: This folder contains various projects where business application development is used. Each project has its own folder with description, project files and source code.
+<h4 align="center">A customizable portfolio website based on Microsoft Windows 10 theme.</h4>
 
-/Labs: This folder contains educational materials such as tutorials, documentation, and articles to help you develop business applications.
+<p align="center">  
+  <img alt="GitHub Workflow Status (branch)" src="https://img.shields.io/github/workflow/status/srinibasbiswal/Portfolio_OS_Theme/Build/master">
+  <img alt="Website" src="https://img.shields.io/website?down_color=lightgrey&down_message=DOWN&up_message=UP&url=https%3A%2F%2Fsrinibasbiswal.com%2F">
+</p>
 
-## **How ​​to start:**
+<p align="center">
+  <a href="#installation">Installation</a> •
+  <a href="#customization">Customization</a> •
+  <a href="#contributing">Contributing</a> •
+  <a href="#license">License</a> •
+  <a href="https://srinibasbiswal.com/">Live Demo</a>
+</p>
 
-Clone the repository to your local computer:
+## Installation
+
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/dawidolko/Simulating-Windows-System-GUI
+
+# Go into the repository
+$ cd Simulating-Windows-System-GUI
+
+# Install dependencies
+$ npm install
+
+# Run the app
+$ npm start
+
+# Build the app
+$ npm run build
 ```
-git clone https://github.com/dawidolko/Programming-Business-Applications.git
+
+Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
+
+## Customization
+
+1. Configuring User Data<br/>
+   Replace the configuration with your details by changing in [user.config.js](src/utils/data/user.config.js)
+
+2. Configuring App Settings<br/>
+   Configure the App settings like enable/disable or showing the sidebar by changing in [apps.config.js](src/utils/data/apps.config.js)
+
+3. Configuring Wallpaper Settings<br/>
+   Configure the wallpapers in [apps.config.js](src/utils/data/apps.config.js)
+
+4. Configuring Firebase Analytics<br/>
+   Enable/disable the analytics by configuring in [project.config.js](src/utils/data/project.config.js)
+
+5. Configuring Firebase Account<br/>
+   `Note: This step can be skipped if analytics is disabled in step 4.`<br/>
+   Add `.env` file with the following firebase config
+
+```sh
+REACT_APP_APIKEY = firebase_apikey
+REACT_APP_AUTH_DOMAIN = firebase_auth_domain
+REACT_APP_DATABASE_URL = firebase_database_url
+REACT_APP_PROJECT_ID = firebase_project_id
+REACT_APP_STORAGE_BUCKET = firebase_storage_bucket
+REACT_APP_MESSSAGING_SENDER_ID = firebase_messaging_sender_id
+REACT_APP_APP_ID = firebase_app_id
+REACT_APP_MEASUREMENT_ID = firebase_measurement_id
 ```
 
-Browse available projects, materials and tools in their respective folders.
+6. Configuring EmailJS account
+   In the `.env` file add the emailJS account template id as below.
 
-Leverage available resources and tools to develop business applications for various disciplines and organizations.
+```sh
+REACT_APP_EMAILJS_KEY = email_js_key
+```
 
-## **System requirements**
-To start developing business applications, you will need the right development tools and environments, such as an IDE (Integrated Development Environment) or specialized business tools. Make sure you have the required software installed according to your project preferences and needs.
+## Contributing
 
-## **Contributions and Support**
-If you want to contribute to this repository, you can report issues, create pull requests or share your own business application development projects. Any contributions are welcome!
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-If you have any questions or need help, please contact me via email or GitHub.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+MIT
+
+---
+
+> [dawidolko.pl](https://dawidolko.pl) &nbsp;&middot;&nbsp;
+> GitHub [@dawidolko](https://github.com/dawidolko) &nbsp;&middot;&nbsp;
+> LinkedIn [@/in/dawidolko](https://www.linkedin.com/in/dawidolko/)
