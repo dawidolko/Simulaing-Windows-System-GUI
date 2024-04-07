@@ -6,14 +6,14 @@ import Projects from "../../components/applications/about/projects.about";
 import Resume from "../../components/applications/about/resume.about";
 import Skills from "../../components/applications/about/skills.about";
 import Chrome from "../../components/applications/chrome.application";
-import dawidolko from "../../components/applications/dawidolko.application";
+import JIOSaavn from "../../components/applications/jiosaavn.application";
 import Mail from "../../components/applications/mail.application";
 import SpreadsheetApp from "../../components/applications/spreadsheet.application";
 import VSCode from "../../components/applications/vscode.application";
 import Word from "../../components/applications/document.application";
 import aboutMe from "../../assets/images/apps/aboutMe.png";
 import chrome from "../../assets/images/apps/chrome.svg";
-import dawidolko from "../../assets/images/apps/dawidolko.png";
+import jioSaavn from "../../assets/images/apps/jioSaavn.png";
 import mail from "../../assets/images/apps/mail.png";
 import word from "../../assets/images/apps/word.svg";
 import spreadsheet from "../../assets/images/apps/spreadsheet.svg";
@@ -77,17 +77,17 @@ const appConfig = [
     ],
   },
   {
-    id: "dawidolko",
-    name: "dawidolko",
+    id: "jioSaavn",
+    name: "JIO Saavn",
     order: 3,
-    icon: dawidolko,
+    icon: jioSaavn,
     isApplication: true,
     showInDesktop: true,
     showLinks: true,
     subComponent: [
       {
-        name: "dawidolko",
-        component: dawidolko,
+        name: "jioSaavn",
+        component: JIOSaavn,
       },
     ],
   },
