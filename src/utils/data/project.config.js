@@ -1,5 +1,5 @@
 const projectConfig = {
-	enableAnalytics: true,
+  enableAnalytics: false,
 };
 
 export default projectConfig;
