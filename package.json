@@ -34,9 +34,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "sass": "sass --no-source-map src:public",
-    "predeploy": "npm run sass",
-    "deploy": "gh-pages -d public"
+    "predeploy": "npm run build && echo 'windows.dawidolko.pl' > build/CNAME",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
