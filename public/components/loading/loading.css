@@ -1,0 +1,150 @@
+h1 {
+  font-weight: 300;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.loader {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  animation: 4500ms linear 0s normal none infinite running;
+  animation-name: rotate;
+  left: 25px;
+}
+
+.loader span::after {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #fff;
+  content: "";
+  display: block;
+  transform-origin: 25px 25px;
+  animation-duration: 3000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.pip-0::after {
+  transform: rotate(0deg);
+  animation-name: rotate-0;
+  animation-delay: 900ms;
+}
+
+@keyframes rotate-0 {
+  0%, 20% {
+    transform: rotate(0deg);
+  }
+  40%, 60% {
+    transform: rotate(180deg);
+  }
+  80%, 100% {
+    transform: rotate(360deg);
+  }
+}
+.pip-1::after {
+  transform: rotate(20deg);
+  animation-name: rotate-1;
+  animation-delay: 775ms;
+}
+
+@keyframes rotate-1 {
+  0%, 20% {
+    transform: rotate(20deg);
+  }
+  40%, 60% {
+    transform: rotate(200deg);
+  }
+  80%, 100% {
+    transform: rotate(380deg);
+  }
+}
+.pip-2::after {
+  transform: rotate(40deg);
+  animation-name: rotate-2;
+  animation-delay: 650ms;
+}
+
+@keyframes rotate-2 {
+  0%, 20% {
+    transform: rotate(40deg);
+  }
+  40%, 60% {
+    transform: rotate(220deg);
+  }
+  80%, 100% {
+    transform: rotate(400deg);
+  }
+}
+.pip-3::after {
+  transform: rotate(60deg);
+  animation-name: rotate-3;
+  animation-delay: 525ms;
+}
+
+@keyframes rotate-3 {
+  0%, 20% {
+    transform: rotate(60deg);
+  }
+  40%, 60% {
+    transform: rotate(240deg);
+  }
+  80%, 100% {
+    transform: rotate(420deg);
+  }
+}
+.pip-4::after {
+  transform: rotate(80deg);
+  animation-name: rotate-4;
+  animation-delay: 400ms;
+}
+
+@keyframes rotate-4 {
+  0%, 20% {
+    transform: rotate(80deg);
+  }
+  40%, 60% {
+    transform: rotate(260deg);
+  }
+  80%, 100% {
+    transform: rotate(440deg);
+  }
+}
+.pip-5::after {
+  transform: rotate(100deg);
+  animation-name: rotate-5;
+  animation-delay: 275ms;
+}
+
+@keyframes rotate-5 {
+  0%, 20% {
+    transform: rotate(100deg);
+  }
+  40%, 60% {
+    transform: rotate(280deg);
+  }
+  80%, 100% {
+    transform: rotate(460deg);
+  }
+}
+@keyframes opacity {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

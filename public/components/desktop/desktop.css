@@ -1,0 +1,66 @@
+:root {
+  --color-primary: #000000;
+  --color-white: #ffffff;
+  --color-red: #ff0000;
+  --color-blue: #00a2ed;
+  --color-secondary: rgb(34, 34, 34);
+  --font-white: rgb(250, 249, 248);
+  --font-light-grey: #a4a4a4;
+  --font-medium: 18px !important;
+  --medium-screen: 640px !important;
+  --small-screen: 960px;
+}
+
+.taskbar-bottom {
+  height: 40px !important;
+  background: rgba(0, 0, 0, 0.55);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.taskbar-icon {
+  color: var(--color-white);
+  width: 45px;
+  margin-right: 5px;
+}
+
+.taskbar-quick-icon {
+  color: var(--color-white);
+  width: 30px;
+  margin-right: 5px;
+}
+
+.taskbar-quick-icon:hover {
+  color: var(--color-white);
+  cursor: pointer !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.taskbar-icon:hover {
+  color: var(--color-white);
+  cursor: pointer !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.taskbar-icon-active {
+  height: 90% !important;
+  border-bottom: 1px solid #ccc;
+  border-color: var(--color-blue) !important;
+}
+
+.onDesktop {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.onDesktop:hover {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.desktop-container {
+  height: calc(100% - 40px) !important;
+}
+
+.taskbar {
+  height: 40px !important;
+}
