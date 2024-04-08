@@ -9,7 +9,7 @@ const user = {
   userImage: default_avatar,
   resume: ResumePDF,
   email: "poczta@dawidolko.pl",
-  linkedIn: "in/srinibasbiswal",
+  linkedIn: "in/dawidolko",
   gitHub: "dawidolko",
   twitter: "dawidolko",
   aboutMe: {
