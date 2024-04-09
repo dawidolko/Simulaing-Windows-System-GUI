@@ -96,6 +96,6 @@ MIT
 
 ---
 
-> [dawidolko.com](https://dawidolko.pl) &nbsp;&middot;&nbsp;
+> Portfolio [dawidolko.com](https://dawidolko.pl) &nbsp;&middot;&nbsp;
 > GitHub [@dawidolko](https://github.com/dawidolko) &nbsp;&middot;&nbsp;
 > LinkedIn [@/in/dawidolko](https://www.linkedin.com/in/dawidolko/)
