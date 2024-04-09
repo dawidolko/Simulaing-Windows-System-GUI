@@ -1,0 +1,19 @@
+:root {
+  --color-primary: #000000;
+  --color-white: #ffffff;
+  --color-red: #ff0000;
+  --color-blue: #00a2ed;
+  --color-secondary: rgb(34, 34, 34);
+  --font-white: rgb(250, 249, 248);
+  --font-light-grey: #a4a4a4;
+  --font-medium: 18px !important;
+  --medium-screen: 640px !important;
+  --small-screen: 960px;
+}
+
+.SignInOverlay {
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
