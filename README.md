@@ -2,10 +2,48 @@
   <br>
 
   <br>
-  System Windows Simulaing
+  windows.dawidolko.pl
   <br>
 </h1>
-
+```
+SIMULAING-WINDOW...
+├─ .github/
+│  ├─ ISSUE_TEMPLATE/
+│  └─ workflows/
+├─ node_modules/
+│  └─ ...
+├─ public/
+│  ├─ android-chrome-192x192.png
+│  ├─ android-chrome-512x512.png
+│  ├─ apple-touch-icon.png
+│  ├─ favicon-16x16.png
+│  ├─ favicon-32x32.png
+│  ├─ favicon.ico
+│  ├─ index.html
+│  ├─ manifest.json
+│  ├─ robots.txt
+│  └─ worker.js
+├─ src/
+│  ├─ assets/
+│  ├─ components/
+│  ├─ containers/
+│  ├─ theme/
+│  ├─ utils/
+│  ├─ App.css
+│  ├─ App.js
+│  ├─ App.test.js
+│  ├─ index.js
+│  ├─ index.scss
+│  ├─ logo.svg
+│  ├─ reportWebVitals.js
+│  ├─ serviceWorker.js
+│  └─ setupTests.js
+├─ .gitignore
+├─ LICENSE
+├─ package-lock.json
+├─ package.json
+└─ README.md
+```
 <h4 align="center">A customizable portfolio website based on Microsoft Windows 10 theme.</h4>
 
 <p align="center">  
