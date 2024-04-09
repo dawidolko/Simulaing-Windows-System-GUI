@@ -5,6 +5,7 @@
   windows.dawidolko.pl
   <br>
 </h1>
+
 ```
 SIMULAING-WINDOW...
 ├─ .github/
@@ -44,6 +45,7 @@ SIMULAING-WINDOW...
 ├─ package.json
 └─ README.md
 ```
+
 <h4 align="center">A customizable portfolio website based on Microsoft Windows 10 theme.</h4>
 
 <p align="center">  
